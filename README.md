@@ -11,3 +11,9 @@ git commit -m "msg here"
 git branch -m main
 git remote add origin https://github.com/easypraveen/namaste-react-teach.git
 git push -u origin main
+
+### ✅ Push On existing Repository from the command line
+
+git remote add origin https://github.com/easypraveen/namaste-react-teach.git
+git branch -m main
+git push -u origin main
