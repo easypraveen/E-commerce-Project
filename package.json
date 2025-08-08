@@ -1,0 +1,29 @@
+{
+  "name": "namste-react",
+  "version": "1.0.0",
+  "description": "This is my first testing project",
+  "keywords": [],
+  "homepage": "https://github.com/easypraveen/namaste-react-teach#readme",
+  "bugs": {
+    "url": "https://github.com/easypraveen/namaste-react-teach/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easypraveen/namaste-react-teach.git"
+  },
+  "license": "ISC",
+  "author": "praveen singh",
+  "target": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browserslist"
+: ["last 2 versions"]
+}

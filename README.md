@@ -20,3 +20,25 @@ git remote add origin https://github.com/easypraveen/namaste-react-teach.git
 git branch -m main
 git push -u origin main
 ```
+
+### Parcel
+
+```bash
+Dev build
+Local server
+HMR - Hot Module Replacement
+File watching algorithm  - Written i C++
+parcel chache - for faster build
+Image optimization
+Minify all files
+bundling
+Compress all files
+Constant hasing
+Code splitting
+Diffrential Bundling - Support older browser
+Diagnostic Error
+Error handling
+Https
+Tree shaking - remove unused code
+Different dev and prod bundles
+```
