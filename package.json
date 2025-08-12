@@ -15,14 +15,19 @@
   "author": "praveen singh",
   "target": "app.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "devDependencies": {
     "parcel": "^2.15.4"
   },
   "dependencies": {
+    "npm": "^11.5.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
-  "browserslist" : ["last 2 versions"]
+  "browserslist": [
+    "last 2 versions"
+  ]
 }

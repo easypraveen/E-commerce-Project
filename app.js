@@ -1,22 +1,17 @@
 import React from "react";
 import { createRoot } from 'react-dom/client';
-// const heading = document.createElement("h1");
-// heading.innerHTML = "Hello Namste React";
-// const root = document.querySelector("#root").appendChild(heading);
 
-const parent = React.createElement("div", {id: "parent"},
-    [
-    React.createElement("div", {id: "child",key: "child1"},[
-    React.createElement("h1", {id: "heading",key: "h1-1"}, "I am a h1 tag"),
-    React.createElement("h2", {id: "heading2",key: "h2-1"}, "I am a h2 tag")
-    ]),
-    React.createElement("div", {id: "child2",key: "child2"},[
-    React.createElement("h1", {id: "heading3",key: "h1-2"}, "I am a h1 tag"),
-    React.createElement("h2", {id: "heading4",key: "h2-2"}, "I am a h2 tag")
-    ])
-]);
+//React Element
+const heading = <p>Namaste React Video 3</p>;
 
-console.log(parent);
+const Title = () => (<h1> {heading} This is title component</h1>)
+
+//React fucntional component
+const Heading = () => (
+<div id="container">
+    <Title /> <h1>Namaste Functional React Component</h1>
+</div>
+);
 
 const root = createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(<Heading />);
