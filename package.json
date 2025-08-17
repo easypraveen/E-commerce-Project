@@ -20,9 +20,13 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
     "parcel": "^2.15.4"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@splidejs/react-splide": "^0.7.12",
+    "framer-motion": "^12.23.12",
     "npm": "^11.5.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
