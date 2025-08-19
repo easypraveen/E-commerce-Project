@@ -7,19 +7,11 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import   SearchBar  from "./SearchBar";
+import { categories } from "../utils/mockData";
 
 export function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false); // mobile menu
   const [catOpen, setCatOpen] = useState(false);   // desktop categories
-
-  const categories = [
-    "Marble",
-    "Tools",
-    "Adhesives",
-    "Polishing",
-    "Machines",
-    "Accessories",
-  ];
 
   return (
     <nav className="w-full bg-white shadow-md border-b border-neutral-200">
