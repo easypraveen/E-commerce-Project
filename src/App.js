@@ -1,3 +1,4 @@
+import ChipsInput from "./components/ChipsInput";
 import {HeroSlider} from "./components/HeroSlider";
 import {NavBar} from "./components/Navbar"
 
